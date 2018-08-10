@@ -1,0 +1,137 @@
+  <data>
+    <location>
+      <location-key>point1</location-key>
+      <point latitude="34.23" longitude="-118.52"/>
+    </location>
+    <time-layout time-coordinate="local" summarization="12hourly">
+      <layout-key>k-p24h-n5-1</layout-key>
+      <start-valid-time period-name="Today">2015-05-15T06:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-15T18:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Tomorrow">2015-05-16T06:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-16T18:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Sunday">2015-05-17T06:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-17T18:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Monday">2015-05-18T06:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-18T18:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Tuesday">2015-05-19T06:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-19T18:00:00-04:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="12hourly">
+      <layout-key>k-p24h-n5-2</layout-key>
+      <start-valid-time period-name="Overnight">2015-05-14T18:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-15T06:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Friday Night">2015-05-15T18:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-16T06:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Saturday Night">2015-05-16T18:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-17T06:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Sunday Night">2015-05-17T18:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-18T06:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Monday Night">2015-05-18T18:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-19T06:00:00-04:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="12hourly">
+      <layout-key>k-p12h-n10-3</layout-key>
+      <start-valid-time period-name="Thursday Night">2015-05-14T18:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-15T06:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Friday">2015-05-15T06:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-15T18:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Friday Night">2015-05-15T18:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-16T06:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Saturday">2015-05-16T06:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-16T18:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Saturday Night">2015-05-16T18:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-17T06:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Sunday">2015-05-17T06:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-17T18:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Sunday Night">2015-05-17T18:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-18T06:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Monday">2015-05-18T06:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-18T18:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Monday Night">2015-05-18T18:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-19T06:00:00-04:00</end-valid-time>
+      <start-valid-time period-name="Tuesday">2015-05-19T06:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-19T18:00:00-04:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="12hourly">
+      <layout-key>k-p5d-n1-4</layout-key>
+      <start-valid-time>2015-05-14T18:00:00-04:00</start-valid-time>
+      <end-valid-time>2015-05-19T18:00:00-04:00</end-valid-time>
+    </time-layout>
+    <parameters applicable-location="point1">
+      <temperature type="maximum" units="Fahrenheit" time-layout="k-p24h-n5-1">
+        <name>Daily Maximum Temperature</name>
+        <value>75</value>
+        <value>85</value>
+        <value>87</value>
+        <value>77</value>
+        <value>76</value>
+      </temperature>
+      <temperature type="minimum" units="Fahrenheit" time-layout="k-p24h-n5-2">
+        <name>Daily Minimum Temperature</name>
+        <value>52</value>
+        <value>62</value>
+        <value>68</value>
+        <value>69</value>
+        <value>68</value>
+      </temperature>
+      <probability-of-precipitation type="12 hour" units="percent" time-layout="k-p12h-n10-3">
+        <name>12 Hourly Probability of Precipitation</name>
+        <value>0</value>
+        <value>13</value>
+        <value>18</value>
+        <value>35</value>
+        <value>31</value>
+        <value>37</value>
+        <value>37</value>
+        <value>49</value>
+        <value>55</value>
+        <value>49</value>
+      </probability-of-precipitation>
+      <weather time-layout="k-p12h-n10-3">
+        <name>Weather Type, Coverage, and Intensity</name>
+        <weather-conditions weather-summary="Partly Cloudy"/>
+        <weather-conditions weather-summary="Mostly Cloudy"/>
+        <weather-conditions weather-summary="Mostly Cloudy"/>
+        <weather-conditions weather-summary="Chance Thunderstorms">
+          <value coverage="chance" intensity="none" weather-type="thunderstorms" qualifier="none"/>
+          <value coverage="chance" intensity="light" additive="and" weather-type="rain showers" qualifier="none"/>
+        </weather-conditions>
+        <weather-conditions weather-summary="Chance Thunderstorms">
+          <value coverage="chance" intensity="none" weather-type="thunderstorms" qualifier="none"/>
+          <value coverage="chance" intensity="light" additive="and" weather-type="rain showers" qualifier="none"/>
+        </weather-conditions>
+        <weather-conditions weather-summary="Chance Thunderstorms">
+          <value coverage="chance" intensity="none" weather-type="thunderstorms" qualifier="none"/>
+          <value coverage="chance" intensity="light" additive="and" weather-type="rain showers" qualifier="none"/>
+        </weather-conditions>
+        <weather-conditions weather-summary="Chance Thunderstorms">
+          <value coverage="chance" intensity="none" weather-type="thunderstorms" qualifier="none"/>
+          <value coverage="chance" intensity="light" additive="and" weather-type="rain showers" qualifier="none"/>
+        </weather-conditions>
+        <weather-conditions weather-summary="Chance Thunderstorms">
+          <value coverage="chance" intensity="none" weather-type="thunderstorms" qualifier="none"/>
+          <value coverage="chance" intensity="light" additive="and" weather-type="rain showers" qualifier="none"/>
+        </weather-conditions>
+        <weather-conditions weather-summary="Rain Showers Likely">
+          <value coverage="likely" intensity="light" weather-type="rain showers" qualifier="none"/>
+        </weather-conditions>
+        <weather-conditions weather-summary="Chance Thunderstorms">
+          <value coverage="chance" intensity="none" weather-type="thunderstorms" qualifier="none"/>
+          <value coverage="chance" intensity="light" additive="and" weather-type="rain showers" qualifier="none"/>
+        </weather-conditions>
+      </weather>
+      <conditions-icon type="forecast-NWS" time-layout="k-p12h-n10-3">
+        <name>Conditions Icons</name>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/nsct.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/bkn.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/nbkn.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/tsra40.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/ntsra30.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/tsra40.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/ntsra40.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/tsra50.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/hi_nshwrs60.jpg</icon-link>
+        <icon-link>http://www.nws.noaa.gov/weather/images/fcicons/tsra50.jpg</icon-link>
+      </conditions-icon>
+    </parameters>
+  </data>

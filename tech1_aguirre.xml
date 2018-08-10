@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+<semester name="Spring 2016">
+	<class>
+             <department>CIT</department>
+             <number> 360</number>
+             <title>CIT System Management (3)  </title>
+       </class>
+
+      <class> 
+            <department>IS</department>
+            <number> 431</number>
+            <title> Systems Analysis and Design (3)</title>
+       </class>
+	   
+	   <class>
+             <department> MATH </department>
+             <number>140</number>
+             <title> Introductory Statistics (4)</title>
+       </class> 
+
+       <class>
+             <department>POLS</department>
+             <number> 225 </number>
+             <title> Elements of International Relations (3) </title>
+       </class> 
+</semester>
+
+ <semester name="Fall 2016">
+      <class> 
+            <department>IS</department>
+            <number>451</number>
+            <title> Systems Development Project (3) </title>
+       </class>
+
+       <class> 
+            <department>COMP</department>
+            <number>424</number>
+            <title>  Computer System Security (3) </title>
+       </class>
+	    
+	   <class>
+             <department>PHYS</department>
+             <number>100A/AL </number>
+             <title> General Physics I and Lab (3/1) </title>
+       </class> 
+	   
+	    <class>
+             <department>POLS</department>
+             <number> 361</number>
+             <title> Introduction to Public Policy (3) </title>
+       </class>
+	   
+	   
+
+	   
+</semester>
+
+<semester name="Spring 2017">
+      <class> 
+            <department>COMP</department>
+            <number> 484\L </number>
+            <title> Web Engineering I and Lab (2/1) </title>
+       </class>
+
+       <class> 
+            <department>COMP</department>
+            <number>485</number>
+            <title>Human-Computer Interaction (3)</title>
+       </class>
+	   
+	   <class> 
+            <department>IS</department>
+            <number>441</number>
+            <title>Database Management Systems (3)</title>
+       </class>
+	   
+	    <class>
+             <department>POLS</department>
+             <number> 423 </number>
+             <title>  Security Studies (3) </title>
+       </class>
+	   
+</semester>
+
+<semester name="Fall 2017">
+      <class> 
+            <department>CIT</department>
+            <number>480\L</number>
+            <title> CIT System Design and Implementation I (2/1) </title>
+       </class>
+	   
+	    <class>
+             <department>POLS  </department>
+             <number> 444 </number>
+             <title> Elections and Voting Behavior (3)</title>
+       </class>
+	   
+	    <class>
+             <department>POLS</department>
+             <number>440 </number>
+             <title> American Political Parties and Politics (3)</title>
+       </class>
+	   
+	    <class>
+             <department>POLS</department>
+             <number> 438 </number>
+             <title> Governments and Politics of the Middle East (3) </title>
+       </class>
+
+</semester>
+
+<semester name="Spring 2018">
+      <class> 
+            <department>CIT</department>
+            <number>481\L</number>
+            <title> CIT System Design and Implementation II (2/1)</title>
+       </class>
+
+</semester>
+
+</catalog>
